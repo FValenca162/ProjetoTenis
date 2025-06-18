@@ -104,8 +104,8 @@ h1 {
 
 .sobre-caixa {
     padding: 2.0rem;
-    max-width: 800px;
-    height: 300px;
+    max-width: 600px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 16px;
     border: 1px solid var(--vidro);
@@ -115,7 +115,7 @@ h1 {
 
 .sobre-paragrafo {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .produtos {
