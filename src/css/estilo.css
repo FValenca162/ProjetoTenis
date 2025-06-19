@@ -106,14 +106,15 @@ h1 {
 }
 
 .sobre-caixa {
-    padding: 2.0rem;
+    padding: 45px;
     max-width: 600px;
     height: 200px;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 20px;
     border: 1px solid var(--vidro);
     backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05); 
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
 }
 
 .sobre-paragrafo {
@@ -124,7 +125,7 @@ h1 {
 .produtos {
     padding: 6rem 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-
+    margin-top: -80px;
 }
 
 .produtos-imagem {
@@ -134,11 +135,10 @@ h1 {
 
 }
 
-.produtos-titulo {
+#produtos-titulo {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 50px;
-
+    margin-bottom: 40px;
 }
 
 .produtos-caixa {
@@ -203,7 +203,7 @@ h1 {
     padding: 2rem;
     border: 1px solid var(--vidro);
     border-radius: 16px;
-
+box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
 }
 
 .campo-form {
@@ -214,6 +214,7 @@ h1 {
     color: var(--claro);
     border: 1px solid var(--vidro);
     outline: none;
+    margin-top: 10px;
 }
 
 .campo-form:focus {
@@ -235,6 +236,7 @@ h1 {
     font-weight: bold;
     width: 100%;
     transition: all 0.5 ease;
+    margin-top: 5px;
 }
 
 .botao-form:hover {
